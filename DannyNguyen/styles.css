@@ -1,0 +1,85 @@
+.card {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-info {
+  position: absolute;
+  height: 400px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(58, 166, 255, 0.9);
+  color: #000000;
+  transition: transform 1s ease;
+  transform: translateY(200%);
+}
+
+.card:hover .card-info {
+  transform: translateY(0);
+}
+
+.img {
+  max-width: 50%;
+  height: auto;
+}
+
+h1 {
+  font-family: Arial Black, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 35px;
+  padding-left: 0;
+}
+
+p {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  padding-left: 0;
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+p1 {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  padding-left: 0;
+  padding-right: 20px;
+  color: #000000;
+}
+
+p2 {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  color: #000000;
+}
+
+button {
+  background-color: #195fbb;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+
