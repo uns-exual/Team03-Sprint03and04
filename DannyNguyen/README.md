@@ -1,1 +1,1 @@
-Code your cards for the site and link the Github.io address here
+Link to Card design: https://uns-exual.github.io/card-Danny.github.io/
